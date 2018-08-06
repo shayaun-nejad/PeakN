@@ -9,7 +9,7 @@ app.use((req, res, next) => {
 
 app.use(express.static(path.join(__dirname, '../client/dist/')));
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3005;
 app.listen(PORT, ()=> {
   console.log(`Listening on port ${PORT}`);
 });

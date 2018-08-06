@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+#app {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#drink {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+#imo {
+    background-image: url('./images/drink.png');
+}
